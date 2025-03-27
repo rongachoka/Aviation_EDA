@@ -1,0 +1,23 @@
+# Jupyter Notebook specific
+.ipynb_checkpoints/
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+moringa_venv/
+moringa_venv/*
+__pycache__/
+*.pyc
+
+# Ignore the Data csv due to its file size
+aircraft_safety/data/Aviation_Data.csv
+
+# macOS system files
+.DS_Store
+
+# Optional: Ignore data files if large or sensitive
+# *.csv
+# *.json
+
